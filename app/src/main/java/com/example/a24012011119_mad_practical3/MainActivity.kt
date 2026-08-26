@@ -32,11 +32,14 @@ class MainActivity : AppCompatActivity() {
                 Uri.parse(findViewById<EditText>(R.id.etWebUrl).text.toString())
             ).also { startActivity(it) }
         }
-        val number =findViewById<EditText>(R.id.etPhone).text.toString()
-        val callButton = findViewById<Button>(R.id.btn_Call)
-        val intent= Intent(Intent.ACTION_DIAL)
-        intent.setData("tel;$number".toUri())
-        callButton.setOnClickListener { startActivity(intent) }
+
+        findViewById<Button>(R.id.btn_Call).setOnClickListener {
+            val number =findViewById<EditText>(R.id.etPhone).text.toString()
+            val intent= Intent(Intent.ACTION_DIAL)
+            intent.setData("tel:$number".toUri())
+            startActivity(intent)
+
+        }
     }
     fun explicitIntent()
     {

@@ -44,5 +44,17 @@ class MainActivity : AppCompatActivity() {
     fun explicitIntent()
     {
 
+
+            findViewById<Button>(R.id.btn_Login).setOnClickListener {
+
+                val intent = Intent(
+                    this,
+                    LoginActivity::class.java
+                )
+
+                startActivity(intent)
+            }
+
+
     }
 }

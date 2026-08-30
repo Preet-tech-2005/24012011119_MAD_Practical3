@@ -40,6 +40,36 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        // Call Log
+        findViewById<Button>(R.id.btn_CallLog).setOnClickListener {
+
+            val intent = Intent(Intent.ACTION_VIEW)
+
+            intent.data =
+                Uri.parse("content://call_log/calls")
+
+            startActivity(intent)
+        }
+
+
+        // Gallery
+        findViewById<Button>(R.id.btn_Gallery).setOnClickListener {
+
+            val intent = Intent(Intent.ACTION_PICK)
+
+            intent.type = "image/*"
+
+            startActivity(intent)
+        }
+        // Camera
+        findViewById<Button>(R.id.btn_Camera).setOnClickListener {
+
+            val intent = Intent(
+                "android.media.action.IMAGE_CAPTURE"
+            )
+
+            startActivity(intent)
+        }
     }
     fun explicitIntent()
     {

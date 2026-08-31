@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.provider.AlarmClock
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,6 +71,36 @@ class MainActivity : AppCompatActivity() {
             )
 
             startActivity(intent)
+        }
+        // Alarm
+        findViewById<Button>(R.id.btn_Alarm).setOnClickListener {
+
+            val intent = Intent(AlarmClock.ACTION_SET_ALARM)
+
+            intent.putExtra(
+                AlarmClock.EXTRA_MESSAGE,
+                "My Alarm"
+            )
+
+            intent.putExtra(
+                AlarmClock.EXTRA_HOUR,
+                7
+            )
+
+            intent.putExtra(
+                AlarmClock.EXTRA_MINUTES,
+                0
+            )
+
+            if (intent.resolveActivity(packageManager) != null) {
+                startActivity(intent)
+            } else {
+                Toast.makeText(
+                    this,
+                    "No Alarm app found",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
         }
     }
     fun explicitIntent()

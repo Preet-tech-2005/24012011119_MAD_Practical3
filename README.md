@@ -217,19 +217,19 @@ These permissions allow the application to access phone calling and camera featu
 
 ## 🏠 Home Screen
 
-![application](Screenshots/application.png.png)
+![application](Screenshot/application.png.png)
 
 ---
 
 ## 🌐 Open Website
 
-![Website](Screenshots/Website.png.png)
+![Website](Screenshot/Website.png.png)
 
 ---
 
 ## 📞 Make Phone Call
 
-![Phonecall](Screenshots/Phonecall.png.png)
+![Phonecall](Screenshot/Phonecall.png.png)
 
 ---
 

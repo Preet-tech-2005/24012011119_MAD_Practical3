@@ -217,37 +217,37 @@ These permissions allow the application to access phone calling and camera featu
 
 ## 🏠 Home Screen
 
-![Home Screen](Screenshot%202026-08-31%20202806.png)
+![application](Screenshots/application.png)
 
 ---
 
 ## 🌐 Open Website
 
-![Open Website](Screenshot%202026-08-31%20203027.png)
+![Website](Screenshots/Website.png)
 
 ---
 
 ## 📞 Make Phone Call
 
-![Make Phone Call](Screenshot%202026-08-31%20203201.png)
+![Phonecall](Screenshots/Phonecall.png)
 
 ---
 
 ## 📋 Open Call Log
 
-![Call Log](Screenshot%202026-08-31%20203220.png)
+![CallLog](Screenshot/CallLog.png)
 
 ---
 
 ## 🖼️ Open Gallery
 
-![Open Gallery](Screenshot%202026-08-31%20203243.png)
+![Gallery](Screenshot/Gallery.png)
 
 ---
 
 ## 📷 Open Camera
 
-![Open Camera](Screenshot%202026-08-31%20203312.png)
+![Camera](Screenshot/Camera.png)
 
 ---
 
@@ -259,7 +259,7 @@ These permissions allow the application to access phone calling and camera featu
 
 ## 🔐 Login Activity
 
-![Login Activity](Screenshot%202026-08-31%20203407.png)
+![Login](Screenshot/Login.png)
 
 ---
 

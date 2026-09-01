@@ -217,49 +217,49 @@ These permissions allow the application to access phone calling and camera featu
 
 ## 🏠 Home Screen
 
-![application](Screenshots/application.png)
+![application](Screenshots/application.png.png)
 
 ---
 
 ## 🌐 Open Website
 
-![Website](Screenshots/Website.png)
+![Website](Screenshots/Website.png.png)
 
 ---
 
 ## 📞 Make Phone Call
 
-![Phonecall](Screenshots/Phonecall.png)
+![Phonecall](Screenshots/Phonecall.png.png)
 
 ---
 
 ## 📋 Open Call Log
 
-![CallLog](Screenshot/CallLog.png)
+![CallLog](Screenshot/CallLog.png.png)
 
 ---
 
 ## 🖼️ Open Gallery
 
-![Gallery](Screenshot/Gallery.png)
+![Gallery](Screenshot/Gallery.png.png)
 
 ---
 
 ## 📷 Open Camera
 
-![Camera](Screenshot/Camera.png)
+![Camera](Screenshot/Camera.png.png)
 
 ---
 
 ## ⏰ Set Alarm
 
-![Set Alarm](Screenshot%202026-08-31%20203340.png)
+![Set Alarm](Screenshot%202026-08-31%20203340.png.png)
 
 ---
 
 ## 🔐 Login Activity
 
-![Login](Screenshot/Login.png)
+![Login](Screenshot/Login.png.png)
 
 ---
 

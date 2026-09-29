@@ -280,7 +280,7 @@ The following screenshots represent the different features implemented in the pr
 
 ## ⏰ Alarm
 
-![Set Alarm](Screenshot%202026-08-31%20203340.png.png)
+![Set Alarm](Screenshot/Alarm.png.png)
 
 ---
 

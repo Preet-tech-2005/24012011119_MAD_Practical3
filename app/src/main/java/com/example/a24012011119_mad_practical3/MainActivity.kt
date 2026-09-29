@@ -75,32 +75,9 @@ class MainActivity : AppCompatActivity() {
         // Alarm
         findViewById<Button>(R.id.btn_Alarm).setOnClickListener {
 
-            val intent = Intent(AlarmClock.ACTION_SET_ALARM)
+            val intent = Intent(AlarmClock.ACTION_SHOW_ALARMS)
+            startActivity(intent)
 
-            intent.putExtra(
-                AlarmClock.EXTRA_MESSAGE,
-                "My Alarm"
-            )
-
-            intent.putExtra(
-                AlarmClock.EXTRA_HOUR,
-                7
-            )
-
-            intent.putExtra(
-                AlarmClock.EXTRA_MINUTES,
-                0
-            )
-
-            if (intent.resolveActivity(packageManager) != null) {
-                startActivity(intent)
-            } else {
-                Toast.makeText(
-                    this,
-                    "No Alarm app found",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
         }
     }
     fun explicitIntent()
